@@ -1,20 +1,13 @@
 /* styles go here */
 .blok-input {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .input-content {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
 }
 
-.intut-radio {
-  display: inline;
-}
-
-.input {
-  display: inline;
-}
-
-.last-input {
-  padding-bottom: 0;
+.blok-input label:last-child {
+  margin-bottom: 0;
 }
